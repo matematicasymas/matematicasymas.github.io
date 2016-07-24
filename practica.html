@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>jQuery Load</title>
+		<!-- Libreria jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+		<!-- Acción sobre el botón con id=boton y actualizamos el div con id=capa -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#boton").click(function(event) {
+					$("#capa").load('header.html');
+				});
+			});
+		</script>
+	</head>
+	<body>
+	<div id="capa">Pulsa 'Actualizar capa' y este texto se actualizará</div>
+	<br>
+	<a href="#" id="boton">--</a>
+	</body>
+</html>

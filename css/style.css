@@ -15,6 +15,7 @@ a, a:hover, a:focus {
 	color: #e06000;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+    font-size:1em;
 }
 
 h1, h2 {
@@ -33,6 +34,11 @@ h3 {
 }
 
 img { max-width: 100%; }
+
+
+td {
+     font-size: .8em;
+}
 
 ::-moz-selection { background: #e06000; color: #fff; text-shadow: none; }
 ::selection { background: #e06000; color: #fff; text-shadow: none; }
@@ -78,6 +84,10 @@ img { max-width: 100%; }
 }
 .btn-link-2:hover, .btn-link-2:focus, 
 .btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
+
+.filabold{
+    font-weight:bold;        
+}
 
 
 /***** Top content *****/

@@ -1,0 +1,18 @@
+#Primera. Codigo para traer un html de un documento 
+
+<script type="text/javascript">
+            $(document).ready(function() {
+                
+                    $("#header").load('header.html');
+    
+            });
+</script>
+
+
+<script type="text/javascript">
+			$(document).ready(function() {
+				$("#boton").click(function(event) {
+					$("#capa").load('header.html');
+				});
+			});
+</script>
